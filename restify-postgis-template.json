@@ -60,7 +60,7 @@
                             ],
                             "from": {
                                 "kind": "ImageStreamTag",
-                                "name": "postgresql:latest",
+                                "name": "postgresql:9.2",
                                 "namespace": "openshift"
                             },
                             "lastTriggeredImage": ""
@@ -364,7 +364,7 @@
         {
             "name": "SOURCE_REPOSITORY_URL",
             "description": "The URL of the repository with your application source code",
-            "value": "https://github.com/ryanj/restify-postGIS"
+            "value": "https://github.com/coelhotopetudo/restify-postGIS"
         },
         {
             "name": "SOURCE_REPOSITORY_REF",
